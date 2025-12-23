@@ -1,0 +1,69 @@
+namespace Fantasy
+{
+	public static partial class OuterOpcode
+	{
+		 public const uint Vector3 = 134227729;
+		 public const uint Hand = 134227730;
+		 public const uint Controller = 134227731;
+		 public const uint RegistryClientRequest = 268445457;
+		 public const uint RegistryClientResponse = 402663185;
+		 public const uint PushRegistryMessage = 134227732;
+		 public const uint RemoveClientRequest = 268445458;
+		 public const uint RemoveClientResponse = 402663186;
+		 public const uint PushRemoveClientMessage = 134227733;
+		 public const uint GetAllClientRequest = 268445459;
+		 public const uint GetAllClientResponse = 402663187;
+		 public const uint PlayerState = 134227734;
+		 public const uint SubmitPlayerStateMessage = 134227735;
+		 public const uint PushPlayerStateResponseMessage = 134227736;
+		 public const uint SubmitAutoTransformSynchronizationMessage = 134227737;
+		 public const uint PushAutoTransformSynchronizationMessage = 134227738;
+		 public const uint SubmitAutoTransformSynchronizationOwnerMessage = 134227739;
+		 public const uint PushAutoTransformSynchronizationOwnerMessage = 134227740;
+		 public const uint GetAutoTransformSynchronizationOwnerRequest = 268445460;
+		 public const uint GetAutoTransformSynchronizationOwnerResponse = 402663188;
+		 public const uint SubmitNetRigidbodySynchronizationMessage = 134227741;
+		 public const uint PushNetRigidbodySynchronizationMessage = 134227742;
+		 public const uint GetAllSubmitAutoTransformSynchronizationRequest = 268445461;
+		 public const uint GetAllSubmitAutoTransformSynchronizationResponse = 402663189;
+		 public const uint SubmitClientJoin2MultipleGameMessage = 134227743;
+		 public const uint SubmitClientExit2MultipleGameMessage = 134227744;
+		 public const uint CreateLivePreviewRouteMessage = 134227745;
+		 public const uint SubmitGamePreviewMessage = 2147493649;
+		 public const uint PushGamePreviewMessage = 134227746;
+		 public const uint PushStartGamePreviewMessage = 134227747;
+		 public const uint PushStopGamePreviewMessage = 134227748;
+		 public const uint RegistryTeacherRequest = 268445462;
+		 public const uint RegistryTeacherResponse = 402663190;
+		 public const uint RemoveTeacherMessage = 134227749;
+		 public const uint GetAllPlayerRequest = 268445463;
+		 public const uint GetAllPlayerResponse = 402663191;
+		 public const uint PushTeacherRegistryPlayerMessage = 134227750;
+		 public const uint PushTeacherRemovePlayerMessage = 134227751;
+		 public const uint TeacherSubmitStartGamePreviewMessage = 134227752;
+		 public const uint TeacherSubmitStopGamePreviewMessage = 134227753;
+		 public const uint TeacherChangeListenPlayerMessage = 134227754;
+		 public const uint ClientRegistryLivePreviewMessage = 134227755;
+		 public const uint ClientRemoveLivePreviewMessage = 134227756;
+		 public const uint LoginRequest = 268445464;
+		 public const uint LoginResponse = 402663192;
+		 public const uint RegistryTeacherAccountRequest = 268445465;
+		 public const uint RegistryTeacherAccountResponse = 402663193;
+		 public const uint TeacherChangeSceneMessage = 134227757;
+		 public const uint PushChangeSceneMessage = 134227758;
+		 public const uint TeacherSendHintMessage = 134227759;
+		 public const uint PushSendHintMessage = 134227760;
+		 public const uint ClientEnterMultipleSceneMessage = 134227761;
+		 public const uint RoomClientItem = 134227762;
+		 public const uint ServerPushRoomClientMessage = 134227763;
+		 public const uint ClientExitMultipleSceneMessage = 134227764;
+		 public const uint ServerPushClientEnterMultipleSceneMessage = 134227765;
+		 public const uint ServerPushClientExitMultipleSceneMessage = 134227766;
+		 public const uint ClientCreateLineMessage = 134227767;
+		 public const uint ClientAddLinePointMessage = 134227768;
+		 public const uint ClientRemoveLineMessage = 134227769;
+		 public const uint ClientGetAllLineRequest = 268445466;
+		 public const uint Line = 134227770;
+		 public const uint ClientGetAllLineResponse = 402663194;
+	}
+}

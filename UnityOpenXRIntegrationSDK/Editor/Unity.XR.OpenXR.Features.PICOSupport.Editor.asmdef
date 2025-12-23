@@ -1,0 +1,37 @@
+{
+    "name": "Unity.XR.OpenXR.Features.PICOSupport.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:96aa6ba065960476598f8f643e7252b6",
+        "GUID:4847341ff46394e83bb78fbd0652937e",
+        "GUID:d1451cc2aec4ed743adcac8be3b46381",
+        "GUID:ce522b6ed64c8be4c989a1d26d0e3275"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "[5.1.2,6.0.0]",
+            "define": "AR_FOUNDATION_5"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "6.0.0",
+            "define": "AR_FOUNDATION_6"
+        },
+        {
+            "name": "com.unity.xr.hands",
+            "expression": "",
+            "define": "UNITY_XR_HAND"
+        }
+    ],
+    "noEngineReferences": false
+}

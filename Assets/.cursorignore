@@ -1,0 +1,191 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+# ================
+# Unity核心忽略规则
+# ================
+# 构建和缓存目录
+/[Bb]uild/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Pp]ackages/packages-lock.json
+
+# Unity生成文件
+*.pidb
+*.pdb
+*.mdb
+*.meta
+*.asset
+*.mat
+*.prefab
+*.unity
+*.unitypackage
+*.lighting
+*.renderTexture
+*.spriteatlas
+*.controller
+*.anim
+*.playable
+*.boo
+*.asmdef
+*.rsp
+*.shadervariants
+
+# ================
+# 资源文件类型
+# ================
+# 3D模型
+*.fbx
+*.obj
+*.blend*
+*.dae
+*.glb
+*.gltf
+*.3ds
+*.max
+*.mb
+*.ma
+*.c4d
+*.skp
+
+# 2D素材
+*.psd
+*.sai
+*.kra
+*.clip
+*.csp
+
+# 音频文件
+*.mp3
+*.wav
+*.ogg
+*.aif
+*.aiff
+*.mod
+*.it
+*.s3m
+*.xm
+*.fsb
+
+# 视频文件
+*.mp4
+*.mov
+*.avi
+*.asf
+*.mpg
+*.mpeg
+*.wmv
+*.webm
+
+# ================
+# 开发环境相关
+# ================
+# IDE配置
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.dotSettings
+*.sublime-project
+*.sublime-workspace
+
+# 版本控制
+.git/
+.gitattributes
+.gitignore
+.gitmodules
+
+# ================
+# 系统生成文件
+# ================
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+# Linux
+.directory
+*~
+
+# ================
+# 打包输出文件
+# ================
+*.apk
+*.aab
+*.xap
+*.app
+*.exe
+*.dmg
+*.ipa
+*.unityweb
+*.7z
+*.rar
+*.zip
+
+# ================
+# 调试和日志文件
+# ================
+*.log
+*.log*
+crashlytics-build.properties
+sysinfo.txt
+output_log.txt
+Editor.log
+Player.log
+
+# ================
+# 其他重要忽略项
+# ================
+# 自动保存文件
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.unity~
+
+# 安全凭证
+*.keystore
+*.jks
+*.cert
+*.pfx
+
+# 文档文件
+*.pdf
+*.doc*
+*.xls*
+*.ppt*
+*.odt
+*.pages
+
+# 测试相关
+/TestResults/
+/test-results.xml
+/coverage/
+/coverage.xml
+
+# 第三方插件
+/[Aa]ssets/Plugins/
+/[Aa]ssets/Standard Assets/
+/[Aa]ssets/Pro Standard Assets/
+/[Aa]ssets/AssetStoreTools/
+/[Aa]ssets/StreamingAssets/
+/[Pp]lugins/
+/[Ee]xport/
+*.Png
+*.FBX
+*.exr

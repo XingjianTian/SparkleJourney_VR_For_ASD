@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/hyh/0_BeginScene.unity
+    guid: 5a72a1abaeae42f488e961f64743a6ae
+  - enabled: 0
+    path: Assets/Scenes/hyh/1_1_MusicScene.unity
+    guid: e2d12a24d0e2d9b47b7da0325e8bb6d9
+  - enabled: 1
+    path: Assets/Scenes/hyh/1_2_DrawScene.unity
+    guid: 713bee93a85453b4a994aca8820ced41
+  - enabled: 0
+    path: Assets/Scenes/hyh/1_HomeScene.unity
+    guid: 14362304fa8b36540921eebe49741b84
+  - enabled: 0
+    path: Assets/Scenes/hyh/2_ClassroomScene.unity
+    guid: 9870c09728a6aff48b5e7603732045e6
+  - enabled: 0
+    path: Assets/Scenes/hyh/3_Scene.unity
+    guid: eb6e8bcc4eed8bc479c1564f9136f056
+  - enabled: 0
+    path: Assets/Scenes/hyh/4_OnlineScene.unity
+    guid: 4136b6c561188b74cbf06fabd45f9fb7
+  m_configObjects:
+    Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: 00f250fa3662540418ea28aa6a00ce4e,
+      type: 2}
+    Unity.XR.PXR.Settings: {fileID: 11400000, guid: cc7f5ddc83301274e99ef6f916a879cb,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7a15b904e10c1864998c9aa5d1e46d06,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ea84e61e2dd62df479c1756659802888,
+      type: 2}
