@@ -1,4 +1,4 @@
-# Spark Together: VR+AI Rehabilitation System for Children with Autism Spectrum Disorder  
+# StarFire: VR+AI Rehabilitation System for Children with Autism Spectrum Disorder  
 A VR+AI-Based Rehabilitation & Therapy System for Children with ASD  
 
 ## Project Overview  
