@@ -1,4 +1,7 @@
 # Sparkle Journey: VR+AI Rehabilitation System for Children with Autism Spectrum Disorder  
+
+**English (primary)** | [简体中文](README.zh-CN.md)
+
 A VR+AI-Based Rehabilitation & Therapy System for Children with ASD  
 
 ## Project Overview  
